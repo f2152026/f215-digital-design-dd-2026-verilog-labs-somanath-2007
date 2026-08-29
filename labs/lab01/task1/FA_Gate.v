@@ -5,7 +5,7 @@
 // Part (a): leave this file exactly as it is, compile, and simulate.
 // Part (b): AFTER completing part (a), come back and reorder the five gate
 //           instantiations below into any different sequence, then
-//           re-simulate with the same tb.v and compar
+//           re-simulate with the same tb.v and comp
 
 module FA_Gate(
   input  a,
