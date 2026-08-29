@@ -10,7 +10,7 @@
 //   FA2: a[2], b[2], c2   -> sum[2], c3
 //   FA3: a[3], b[3], c3   -> sum[3], cout
 //
-// Use named port connections (.a(...), .b(...), etc.), not positional.
+// Use named port connections (.a(...), .b(...), etc.), not position
 
 module ripple_adder(
   input  [3:0] a,
