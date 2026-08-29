@@ -5,7 +5,7 @@
 // Every gate needs an explicit delay (constant is fine here, e.g. #(2)) --
 // this is the default from Task 2 onward, not a special step.
 //
-// TODO -- Step 1: generate/propagate signals (one xor + one and per bit)
+// TODO -- Step 1: generate/propagate signals (one xor + one and per b
 //   p[i] = a[i] ^ b[i]
 //   g[i] = a[i] & b[i]
 //
