@@ -11,7 +11,7 @@
 //   assign #(2) c2   = g[1] | (p[1] & g[0]) | (p[1] & p[0] & cin);
 //   assign #(2) c3   = ... (same pattern, one more term)
 //   assign #(2) cout = ... (same pattern, one more term)
-//   assign #(2) sum  = p ^ {c3, c2, c1, cin};
+//   assign #(2) sum  = p ^ {c3, c2, c1, cin
 
 module cla4_dataflow(
   input  [3:0] a,
