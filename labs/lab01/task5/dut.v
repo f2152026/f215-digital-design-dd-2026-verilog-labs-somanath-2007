@@ -2,7 +2,7 @@
 // Wrapper module for the bonus task. Only cla64_hier.v is required to be
 // present for this to compile as-is. If you'd like to compare directly
 // against your Task 4 implementations, copy rca64.v / cla64_flat.v /
-// cla64_blocked.v into this folder too and uncomment the matching option.
+// cla64_blocked.v into this folder too and uncomment the matching optio
 
 module dut(
   input  [63:0] a,
