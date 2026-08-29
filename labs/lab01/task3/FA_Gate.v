@@ -1,6 +1,4 @@
 // FA_Gate.v
-// (Carried forward from Task 2 -- paste in your completed, delay-annotated
-// version.)
 // Gate-level model of a 1-bit full adder, now with explicit gate delays.
 // From this task onward, every gate/assign you write in this lab should
 // have an explicit delay -- it's the default way we'll be writing Verilog
@@ -17,7 +15,7 @@
 // This tells the simulator to use a different delay depending on whether
 // the gate's output is transitioning 0->1 (rise) or 1->0 (fall) -- real
 // gates are rarely symmetric this way. Re-simulate with the SAME
-// ripple_adder.v and tb.v; nothing else needs to change.
+// ripple_adder.v and tb.v; nothing else needs to chan
 
 module FA_Gate(
   input  a,
@@ -33,5 +31,4 @@ module FA_Gate(
   xor #(2) (sum, cin, ps);
   and #(2) (pc2, cin, ps);
   or  #(2) (cout, pc1, pc2);
-
 endmodule
